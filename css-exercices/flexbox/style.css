@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-container {
+    color: lightsteelblue;
+    background-color:lightslategray;
+    display:flex;
+    padding: 20px 0;
+    justify-content:center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content:space-between;
+    color: black;
+}
+
+.login {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.signin {
+    margin-right: 20px;
+}
+
