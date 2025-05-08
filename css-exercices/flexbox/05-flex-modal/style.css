@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+
+    background-color: #aaa;
+    color: #333;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: floralwhite;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.warning {
+    flex: 0 0 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.warning .circle {
+    border: 2px solid gray;
+    background-color: lavender;
+    color: royalblue;
+    
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.warning-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warning-top > p {
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #eee;
+    color: #888;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.confirm {
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+button.confirm:active {
+    background-color: rgb(14, 64, 212); /* darker background */
+    transform: scale(0.95); /* shrink slightly */
+}
+
+button.cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+
+button.cancel:active {
+    background-color: rgb(236, 236, 236);
+    transform: scale(0.95);
+}
