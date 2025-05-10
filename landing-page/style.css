@@ -24,7 +24,8 @@ a {
 .header-container,
 .footer-container,
 .main {
-  background-color: #1f2937;
+  background-color: rgba(65, 55, 2, 0.685);;
+
   display: flex;
 }
 
@@ -33,8 +34,9 @@ a {
 .header-container {
   align-items: center;
   justify-content: space-around ;
+  background-color: rgba(65, 55, 2, 0.685);;
   color: #e5e7eb;
-  border-bottom: 1px solid rgb(87, 89, 94);
+  box-shadow: inset 0px -5px 2px 0px rgb(43, 47, 92);
 }
 
 .header-container .logo {
@@ -53,6 +55,7 @@ a {
 
 /* HERO */
 .main {
+  background-color: #1f2937;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -148,3 +151,10 @@ a {
   text-align: right;
 }
 /* END OF QUOTE SECTION */
+
+.footer-container {
+  box-shadow: inset 0px 5px 2px 0px rgb(43, 47, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
